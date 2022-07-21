@@ -1,0 +1,10 @@
+{
+    "authenticationMethod": "route",
+    "routes": [
+        {
+            "source": "(.*)",
+            "target": "$1/testcontainer?recursive=true&resource=filesystem",
+            "destination": "subitsimpledest"
+        }
+    ]
+}
